@@ -71,3 +71,5 @@ MIT License – use it, fork it, improve it, and have fun 🚀
 ## 💡 Disclaimer
 
 This bot is designed for small-scale community fun. Use responsibly and make sure you have consent when initiating rides 😄
+
+Made by Kirio with ♡
