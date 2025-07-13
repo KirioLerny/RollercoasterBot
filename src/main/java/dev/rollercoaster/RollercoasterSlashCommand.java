@@ -169,4 +169,6 @@ public class RollercoasterSlashCommand extends ListenerAdapter {
         riderCategories.remove(userId);
         riderTasks.remove(userId);
     }
+
+    // TODO: Wenn jemand unabhängiges in den rollercoaster geschoben wird soll der rollercoaster mit der ursprünglichen person weiterlaufen und die falsche person soll in den ursprünglichen channel gemoved werden
 }
