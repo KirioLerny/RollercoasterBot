@@ -22,8 +22,8 @@ Perfect for small communities or private servers where fun meets moderation cont
 
 ### Slash Command
 
-/rollercoaster target:@username
-/rc target:@username
+`/rollercoaster target:@username` <br>
+`/rc target:@username`
 
 You must have the appropriate permissions or role to use the command.
 

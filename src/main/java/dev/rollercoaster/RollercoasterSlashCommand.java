@@ -75,7 +75,7 @@ public class RollercoasterSlashCommand extends ListenerAdapter {
 
             String catName = "Rollercoaster - " + target.getEffectiveName();
             guild.createCategory(catName).queue(category -> {
-                riderCategories.put(target.getIdLong(), category); // remember temp category
+                riderCategories.put(target.getIdLong(), category);
                 createVoiceChannels(category, target, original, hook);
             });
         });
@@ -121,7 +121,7 @@ public class RollercoasterSlashCommand extends ListenerAdapter {
     private void startRideSequence(List<VoiceChannel> channels, Member target, VoiceChannel original, InteractionHook hook, Category category) {
 
         List<VoiceChannel> path = new ArrayList<>(channels);
-        for (int i = channels.size() - 2; i >= 0; i--) path.add(channels.get(i)); // reverse back
+        for (int i = channels.size() - 2; i >= 0; i--) path.add(channels.get(i));
 
         List<ScheduledFuture<?>> tasks = new ArrayList<>();
 
