@@ -171,4 +171,5 @@ public class RollercoasterSlashCommand extends ListenerAdapter {
     }
 
     // TODO: Wenn jemand unabhängiges in den rollercoaster geschoben wird soll der rollercoaster mit der ursprünglichen person weiterlaufen und die falsche person soll in den ursprünglichen channel gemoved werden
+    // TODO: Wenn jemand den channel switched, der gecoastered werden soll bricht der bot ab. Das fixen
 }
